@@ -3,7 +3,7 @@ class Objective < Formula
   homepage "https://github.com/hbmartin/objective-sdk-kotlin-multiplatform/"
 
   url "https://repo1.maven.org/maven2/me/haroldmartin/objective-cli/0.1.3/objective-cli-0.1.3.jar"
-  sha256 "71c47f86c01a3869d808d7d8af8bc0dc4071cf911c14cf612c82c4020117391a"
+  sha256 "bb6a87f8400b44d640af1b8eaf6226a58eda6ce4685a3e1ac9ff22f4e038f266"
 
   license "Apache-2.0"
 
