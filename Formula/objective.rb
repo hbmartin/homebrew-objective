@@ -2,15 +2,15 @@ class Objective < Formula
   desc "Objective object and index access via CLI / TUI"
   homepage "https://github.com/hbmartin/objective-sdk-kotlin-multiplatform"
 
-  url "https://repo1.maven.org/maven2/me/haroldmartin/objective-cli/0.3.0/objective-cli-0.3.0.jar"
-  sha256 "44707ee7389e7144f9d79436b3ca61da4872550c4b51b4843441a45df8b0574d"
+  url "https://repo1.maven.org/maven2/me/haroldmartin/objective-cli/0.3.1/objective-cli-0.3.1.jar"
+  sha256 "db59e1b00e3a59a78aed14d9db14d01250b520f0b8347bc1dde35f9af9c425a0"
 
   license "Apache-2.0"
   depends_on "openjdk"
   
   def install
-    libexec.install "objective-cli-0.3.0.jar"
-    bin.write_jar_script libexec/"objective-cli-0.3.0.jar", "objective"
+    libexec.install "objective-cli-0.3.1.jar"
+    bin.write_jar_script libexec/"objective-cli-0.3.1.jar", "objective"
   end
 
   test do
